@@ -1,7 +1,7 @@
-{
+﻿{
   "name": "rolando-diaz-api",
   "version": "1.0.0",
-  "description": "Mini servidor Node.js (http nativo) con un endpoint GET que devuelve un saludo del desarrollador.",
+  "description": "Mini servidor Node.js (Express) con un endpoint GET que devuelve un saludo del desarrollador.",
   "main": "server.js",
   "type": "commonjs",
   "scripts": {
@@ -9,6 +9,9 @@
   },
   "engines": {
     "node": ">=22"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
   },
   "author": "Rolando Diaz",
   "license": "ISC"
